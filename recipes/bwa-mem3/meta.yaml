@@ -1,5 +1,5 @@
 {% set name = "bwa-mem3" %}
-{% set version = "0.8.0" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fg-labs/{{ name }}/releases/download/v{{ version }}/Source_code_including_submodules.tar.gz
-  sha256: a8b8f0c0f785e2a71273b740120545a5396e6155670b78ec15058e6b01d7d875
+  sha256: 1a38796ceab801b2becac2115606962e79bbf4c78c33fafe25776f76ebceeb11
 
 build:
   number: 0
